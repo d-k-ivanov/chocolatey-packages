@@ -1,0 +1,13 @@
+# IDE
+.idea
+.vs
+.vscode
+
+# Python
+venv/
+__pycache__/
+
+# Temp
+packed/
+tmp/
+*.ffs_db
