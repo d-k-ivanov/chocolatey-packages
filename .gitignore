@@ -3,11 +3,12 @@
 .vs
 .vscode
 
+# Nuget packages
+*.nupkg
+
 # Python
 venv/
 __pycache__/
 
 # Temp
-packed/
 tmp/
-*.ffs_db
