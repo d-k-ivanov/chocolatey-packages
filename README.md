@@ -1,7 +1,8 @@
 # Dmitriy Ivanov's Chocolatey Packages
 
 [![Build status](https://ci.appveyor.com/api/projects/status/m7qy0fo9nqqrd7j7?svg=true)](https://ci.appveyor.com/project/d-k-ivanov/chocolatey-packages)
-[chocolatey.org profile](https://chocolatey.org/profiles/d-k-ivanov)
+
+**[Chocolatey.org Profile](https://chocolatey.org/profiles/d-k-ivanov)**
 
 ## Description
 
