@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageArgs = @{
-    packageName    = "mro"
+    packageName    = "ms-r-open"
     fileType       = "EXE"
     url            = "https://mran.blob.core.windows.net/install/mro/3.5.3/windows/microsoft-r-open-3.5.3.exe"
     url64bit       = "https://mran.blob.core.windows.net/install/mro/3.5.3/windows/microsoft-r-open-3.5.3.exe"

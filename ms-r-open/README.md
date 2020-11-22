@@ -1,6 +1,6 @@
 # Microsoft R Open is the enhanced distribution of R from Microsoft Corporation
 
-<img src="https://raw.githubusercontent.com/d-k-ivanov/chocolatey-packages/master/mro/icon.png" width="48" height="48"/>
+<img src="https://raw.githubusercontent.com/d-k-ivanov/chocolatey-packages/master/ms-r-open/icon.png" width="48" height="48"/>
 
 Microsoft R Open is the enhanced distribution of R from Microsoft Corporation. It is a complete open source platform for statistical analysis and data science.
 
@@ -22,4 +22,4 @@ Microsoft R Open is the enhanced distribution of R from Microsoft Corporation. I
 - The installation of many packages include all base and recommended R packages plus a set of specialized packages released by Microsoft Corporation to further enhance your Microsoft R Open experience.
 - It includes Intel Math Kernel Library (Intel MKL) as well.
 
-![screenshot](https://raw.githubusercontent.com/d-k-ivanov/chocolatey-packages/master/mro/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/d-k-ivanov/chocolatey-packages/master/ms-r-open/screenshot.png)

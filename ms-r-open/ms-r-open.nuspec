@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>mro</id>
+    <id>ms-r-open</id>
     <title>Microsoft R Open</title>
     <version>3.5.3</version>
     <authors>Microsoft and R Project</authors>
@@ -32,14 +32,14 @@
     <bugTrackerUrl>https://github.com/microsoft/microsoft-r-open/issues</bugTrackerUrl>
     <copyright>© microsoft</copyright>
     <docsUrl>https://mran.microsoft.com/documents/getting-started/</docsUrl>
-    <iconUrl>https://raw.githubusercontent.com/d-k-ivanov/chocolatey-packages/master/mro/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/d-k-ivanov/chocolatey-packages/master/ms-r-open/icon.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/microsoft/microsoft-r-open/master/source/COPYING</licenseUrl>
-    <packageSourceUrl>https://github.com/d-k-ivanov/chocolatey-packages/master/mro</packageSourceUrl>
+    <packageSourceUrl>https://github.com/d-k-ivanov/chocolatey-packages/master/ms-r-open</packageSourceUrl>
     <projectSourceUrl>https://github.com/microsoft/microsoft-r-open</projectSourceUrl>
     <projectUrl>https://mran.microsoft.com/</projectUrl>
     <releaseNotes>https://github.com/microsoft/microsoft-r-open/releases/tag/mro-3.5.3</releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>computation mathematics microsoft-r-open modelling mro r statistics</tags>
+    <tags>computation mathematics microsoft-r-open modelling ms-r-open r statistics</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
