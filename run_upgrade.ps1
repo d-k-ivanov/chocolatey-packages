@@ -1,5 +1,8 @@
-[Parameter(Mandatory=$true)]
-param($PackageName)
+param
+(
+    [Parameter(Mandatory=$true)]
+    [string] $PackageName
+)
 
 $here = Split-Path $MyInvocation.MyCommand.Definition
 $nuget_spec = Join-Path $here "${PackageName}/${PackageName}.nuspec"
