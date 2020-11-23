@@ -37,7 +37,7 @@
     <packageSourceUrl>https://github.com/d-k-ivanov/chocolatey-packages/tree/master/ms-r-open</packageSourceUrl>
     <projectSourceUrl>https://github.com/microsoft/microsoft-r-open</projectSourceUrl>
     <projectUrl>https://mran.microsoft.com/</projectUrl>
-    <releaseNotes>https://github.com/microsoft/microsoft-r-open/releases/tag/mro-3.5.3</releaseNotes>
+    <releaseNotes>https://github.com/microsoft/microsoft-r-open/releases/tag/MRO-3.5.3</releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>computation mathematics microsoft-r-open modelling ms-r-open r statistics</tags>
   </metadata>
