@@ -22,3 +22,16 @@ build_script:
 artifacts:
   - path: '*.nupkg'
     name: ChocolateyPackages
+
+deploy:
+  - provider: GitHub
+    release: chocolatey-packages-v$(APPVEYOR_BUILD_VERSION)
+    description: 'chocolatey-packages-v$(APPVEYOR_BUILD_VERSION)'
+    auth_token:
+      secure: rh81skp99FQ8ioOSJe8p72iwt3TTfWQ02Z5eahKDyCTC4Q6WcOLcSV+lkiBRIqJX
+    artifact: ChocolateyPackages
+    draft: false
+    prerelease: false
+    on:
+      branch: master
+      APPVEYOR_REPO_TAG: true
