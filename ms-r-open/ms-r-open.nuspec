@@ -4,7 +4,7 @@
   <metadata>
     <id>ms-r-open</id>
     <title>Microsoft R Open</title>
-    <version>3.5.3</version>
+    <version>4.0.2</version>
     <authors>Microsoft and R Project</authors>
     <owners>Dmitriy Ivanov</owners>
     <summary>Microsoft R Open is the enhanced distribution of R from Microsoft Corporation.</summary>
@@ -30,14 +30,14 @@
 
 ]]></description>
     <bugTrackerUrl>https://github.com/microsoft/microsoft-r-open/issues</bugTrackerUrl>
-    <copyright>© microsoft</copyright>
+    <copyright>© Microsoft</copyright>
     <docsUrl>https://mran.microsoft.com/documents/getting-started/</docsUrl>
     <iconUrl>https://raw.githubusercontent.com/d-k-ivanov/chocolatey-packages/master/ms-r-open/icon.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/microsoft/microsoft-r-open/master/source/COPYING</licenseUrl>
     <packageSourceUrl>https://github.com/d-k-ivanov/chocolatey-packages/tree/master/ms-r-open</packageSourceUrl>
     <projectSourceUrl>https://github.com/microsoft/microsoft-r-open</projectSourceUrl>
     <projectUrl>https://mran.microsoft.com/</projectUrl>
-    <releaseNotes>https://github.com/microsoft/microsoft-r-open/releases/tag/MRO-3.5.3</releaseNotes>
+    <releaseNotes>https://github.com/microsoft/microsoft-r-open/releases/tag/MRO-4.0.2</releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>computation mathematics microsoft-r-open modelling ms-r-open r statistics</tags>
   </metadata>

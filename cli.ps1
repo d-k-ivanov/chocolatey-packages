@@ -9,11 +9,12 @@ param
     [string] $Path
 )
 
-$Path           = Resolve-Path "${Path}"
-$PackageName    = Split-Path "${Path}" -Leaf
-$NugetSpec      = Join-Path "${Path}" "${PackageName}.nuspec"
-[xml] $SpecFile = Get-Content "${NugetSpec}"
-$Version        = $SpecFile.package.metadata.version
+$CurrentDirectory   = Split-Path $MyInvocation.MyCommand.Definition
+$Path               = Resolve-Path "${Path}"
+$PackageName        = Split-Path "${Path}" -Leaf
+$NugetSpec          = Join-Path "${Path}" "${PackageName}.nuspec"
+[xml] $SpecFile     = Get-Content "${NugetSpec}"
+$Version            = $SpecFile.package.metadata.version
 
 # Write-Output $Path
 # Write-Output $NugetSpec
@@ -29,12 +30,12 @@ switch ($Operation) {
     "install"
     {
         choco pack ${NugetSpec}
-        choco install --force --yes --pre --source "$here;http://chocolatey.org/api/v2/" ${PackageName}
+        choco install --force --yes --pre --source "${CurrentDirectory};http://chocolatey.org/api/v2/" ${PackageName}
     }
     "upgrade"
     {
         choco pack ${NugetSpec}
-        choco upgrade --force --yes --pre --source "$here;http://chocolatey.org/api/v2/" $PackageName
+        choco upgrade --force --yes --pre --source "${CurrentDirectory};http://chocolatey.org/api/v2/" ${PackageName}
     }
     "uninstall"
     {
