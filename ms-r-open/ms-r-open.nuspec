@@ -34,7 +34,7 @@
     <docsUrl>https://mran.microsoft.com/documents/getting-started/</docsUrl>
     <iconUrl>https://raw.githubusercontent.com/d-k-ivanov/chocolatey-packages/master/ms-r-open/icon.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/microsoft/microsoft-r-open/master/source/COPYING</licenseUrl>
-    <packageSourceUrl>https://github.com/d-k-ivanov/chocolatey-packages/master/ms-r-open</packageSourceUrl>
+    <packageSourceUrl>https://github.com/d-k-ivanov/chocolatey-packages/tree/master/ms-r-open</packageSourceUrl>
     <projectSourceUrl>https://github.com/microsoft/microsoft-r-open</projectSourceUrl>
     <projectUrl>https://mran.microsoft.com/</projectUrl>
     <releaseNotes>https://github.com/microsoft/microsoft-r-open/releases/tag/mro-3.5.3</releaseNotes>
