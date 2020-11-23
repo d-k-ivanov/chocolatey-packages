@@ -7,11 +7,6 @@ branches:
   only:
   - master
 
-init:
-- git config --global user.email "d.k.ivanov@live.com"
-- git config --global user.name "Dmitriy Ivanov"
-- git config --global core.safecrlf false
-
 build_script:
 - ps: 'Get-CimInstance win32_operatingsystem -Property Caption, OSArchitecture, Version | fl Caption, OSArchitecture, Version'
 - ps: $PSVersionTable
@@ -22,3 +17,8 @@ build_script:
     '  {0,-20} {1}' -f 'SCHEDULED BUILD:', ($Env:APPVEYOR_SCHEDULED_BUILD -eq 'true')
     '  {0,-20} {1}' -f 'FORCED BUILD:'   , ($Env:APPVEYOR_FORCED_BUILD    -eq 'true')
     '  {0,-20} {1}' -f 'RE BUILD:'       , ($Env:APPVEYOR_RE_BUILD        -eq 'true')
+- ps: .\build_all.ps1
+
+artifacts:
+  - path: '*.nupkg'
+    name: ChocolateyPackages
