@@ -6,7 +6,7 @@
     <title>Microsoft R Open</title>
     <version>4.0.2</version>
     <authors>Microsoft and R Project</authors>
-    <owners>Dmitriy Ivanov</owners>
+    <owners>Dmitry Ivanov</owners>
     <summary>Microsoft R Open is the enhanced distribution of R from Microsoft Corporation.</summary>
     <description><![CDATA[Microsoft R Open is the enhanced distribution of R from Microsoft Corporation. It is a complete open source platform for statistical analysis and data science.
 
